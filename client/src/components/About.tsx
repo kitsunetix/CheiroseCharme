@@ -20,18 +20,19 @@ export default function About() {
             </h2>
             <div className="space-y-4 text-muted-foreground">
               <p>
-                A <span className="text-foreground font-semibold">Cheiro & Charme</span> nasceu da paixão por criar 
-                produtos que transformam ambientes comuns em espaços extraordinários. Cada peça é 
-                pensada para adicionar elegância e aconchego ao seu lar.
+                A <span className="text-foreground font-semibold">Cheiro & Charme</span> nasceu do sonho de conquistar 
+                uma renda extra através do empreendedorismo autônomo. Somos uma empresa que representa o espírito 
+                de quem busca independência financeira através de trabalhos manuais artesanais.
               </p>
               <p>
-                Nossos pratos decorados são verdadeiras obras de arte funcionais, perfeitos para 
-                decoração ou uso especial. Já nossas velas aromáticas são cuidadosamente desenvolvidas 
-                com fragrâncias exclusivas que criam atmosferas únicas.
+                Especializados em <span className="text-foreground font-semibold">velas aromáticas</span> com fragrâncias 
+                de baunilha e jasmim, e <span className="text-foreground font-semibold">pratos decorados</span> com a técnica 
+                de decupagem em estampas exclusivas, oferecemos produtos únicos que trazem elegância e aconchego para qualquer lar.
               </p>
               <p>
-                Acreditamos que os pequenos detalhes fazem toda a diferença. Por isso, cada produto 
-                é criado artesanalmente com dedicação, qualidade e muito carinho.
+                Mais do que uma empresa, somos uma ponte entre empreendedores e clientes, mostrando que é possível 
+                transformar talento e dedicação em uma fonte de renda. Cada produto é feito à mão com carinho e atenção 
+                aos detalhes, provando que trabalhos informais também podem gerar produtos de alta qualidade.
               </p>
             </div>
           </div>
