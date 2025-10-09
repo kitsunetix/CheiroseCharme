@@ -18,22 +18,22 @@ export default function ProductCard({
   featured = false 
 }: ProductCardProps) {
   return (
-    <Card className="hover-elevate transition-all duration-300">
-      <div className="relative overflow-hidden rounded-t-lg">
+    <Card className="hover-elevate transition-all duration-300 relative">
+      <div className="overflow-hidden rounded-t-lg">
         <img 
           src={image} 
           alt={title} 
           className="w-full h-64 object-cover"
         />
-        {featured && (
-          <Badge 
-            className="absolute top-4 right-4 bg-accent text-accent-foreground shadow-md"
-            data-testid="badge-destaque"
-          >
-            Destaque
-          </Badge>
-        )}
       </div>
+      {featured && (
+        <Badge 
+          className="absolute top-4 right-4 bg-accent text-accent-foreground shadow-lg z-10"
+          data-testid="badge-destaque"
+        >
+          Destaque
+        </Badge>
+      )}
       <CardHeader>
         <h3 className="font-serif text-2xl font-semibold text-foreground" data-testid="text-product-title">
           {title}

@@ -4,7 +4,7 @@ import Products from "@/components/Products";
 import PromotionBanner from "@/components/PromotionBanner";
 import Features from "@/components/Features";
 import About from "@/components/About";
-import Contact from "@/components/Contact";
+import SocialMedia from "@/components/SocialMedia";
 import Footer from "@/components/Footer";
 
 export default function Home() {
@@ -17,7 +17,7 @@ export default function Home() {
         <PromotionBanner />
         <Features />
         <About />
-        <Contact />
+        <SocialMedia />
       </main>
       <Footer />
     </div>

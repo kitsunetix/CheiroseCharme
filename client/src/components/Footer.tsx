@@ -1,5 +1,5 @@
 import { Sparkles } from "lucide-react";
-import { SiInstagram, SiFacebook, SiWhatsapp } from "react-icons/si";
+import { SiInstagram } from "react-icons/si";
 
 export default function Footer() {
   return (
@@ -41,42 +41,28 @@ export default function Footer() {
               </li>
               <li>
                 <button 
-                  onClick={() => document.getElementById('contato')?.scrollIntoView({ behavior: 'smooth' })}
+                  onClick={() => document.getElementById('redes-sociais')?.scrollIntoView({ behavior: 'smooth' })}
                   className="text-muted-foreground hover:text-foreground text-sm transition-colors"
-                  data-testid="link-footer-contato"
+                  data-testid="link-footer-instagram"
                 >
-                  Contato
+                  Instagram
                 </button>
               </li>
             </ul>
           </div>
 
           <div>
-            <h4 className="font-semibold text-foreground mb-4">Redes Sociais</h4>
+            <h4 className="font-semibold text-foreground mb-4">Siga-nos</h4>
             <div className="flex gap-4">
               <a 
-                href="#" 
+                href="https://www.instagram.com/cheiros.echarme/" 
+                target="_blank"
+                rel="noopener noreferrer"
                 className="bg-accent/20 p-3 rounded-full hover-elevate transition-all"
                 aria-label="Instagram"
                 data-testid="link-instagram"
               >
                 <SiInstagram className="w-5 h-5 text-accent-foreground" />
-              </a>
-              <a 
-                href="#" 
-                className="bg-accent/20 p-3 rounded-full hover-elevate transition-all"
-                aria-label="Facebook"
-                data-testid="link-facebook"
-              >
-                <SiFacebook className="w-5 h-5 text-accent-foreground" />
-              </a>
-              <a 
-                href="#" 
-                className="bg-accent/20 p-3 rounded-full hover-elevate transition-all"
-                aria-label="WhatsApp"
-                data-testid="link-whatsapp"
-              >
-                <SiWhatsapp className="w-5 h-5 text-accent-foreground" />
               </a>
             </div>
           </div>

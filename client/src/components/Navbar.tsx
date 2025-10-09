@@ -43,11 +43,11 @@ export default function Navbar() {
               Sobre
             </button>
             <button
-              onClick={() => scrollToSection('contato')}
+              onClick={() => scrollToSection('redes-sociais')}
               className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
-              data-testid="link-contato"
+              data-testid="link-redes"
             >
-              Contato
+              Instagram
             </button>
           </div>
 
