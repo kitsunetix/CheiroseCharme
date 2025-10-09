@@ -7,16 +7,16 @@ import { useState } from "react";
 
 export default function Contact() {
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    message: ''
+    name: "",
+    email: "",
+    message: "",
   });
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    console.log('Form submitted:', formData);
-    alert('Mensagem enviada com sucesso! Entraremos em contato em breve.');
-    setFormData({ name: '', email: '', message: '' });
+    console.log("Form submitted:", formData);
+    alert("Mensagem enviada com sucesso! Entraremos em contato em breve.");
+    setFormData({ name: "", email: "", message: "" });
   };
 
   return (
@@ -45,7 +45,9 @@ export default function Contact() {
                     type="text"
                     placeholder="Seu Nome"
                     value={formData.name}
-                    onChange={(e) => setFormData({ ...formData, name: e.target.value })}
+                    onChange={(e) =>
+                      setFormData({ ...formData, name: e.target.value })
+                    }
                     required
                     data-testid="input-name"
                   />
@@ -55,7 +57,9 @@ export default function Contact() {
                     type="email"
                     placeholder="Seu E-mail"
                     value={formData.email}
-                    onChange={(e) => setFormData({ ...formData, email: e.target.value })}
+                    onChange={(e) =>
+                      setFormData({ ...formData, email: e.target.value })
+                    }
                     required
                     data-testid="input-email"
                   />
@@ -64,14 +68,16 @@ export default function Contact() {
                   <Textarea
                     placeholder="Sua Mensagem"
                     value={formData.message}
-                    onChange={(e) => setFormData({ ...formData, message: e.target.value })}
+                    onChange={(e) =>
+                      setFormData({ ...formData, message: e.target.value })
+                    }
                     required
                     rows={5}
                     data-testid="input-message"
                   />
                 </div>
-                <Button 
-                  type="submit" 
+                <Button
+                  type="submit"
                   className="w-full"
                   data-testid="button-submit"
                 >
@@ -102,9 +108,11 @@ export default function Contact() {
                   <Phone className="w-6 h-6 text-accent-foreground" />
                 </div>
                 <div>
-                  <h4 className="font-semibold text-foreground mb-1">Telefone</h4>
+                  <h4 className="font-semibold text-foreground mb-1">
+                    Telefone
+                  </h4>
                   <p className="text-muted-foreground" data-testid="text-phone">
-                    (11) 98765-4321
+                    (21) 96825-0502
                   </p>
                 </div>
               </CardContent>
@@ -116,9 +124,14 @@ export default function Contact() {
                   <MapPin className="w-6 h-6 text-accent-foreground" />
                 </div>
                 <div>
-                  <h4 className="font-semibold text-foreground mb-1">Localização</h4>
-                  <p className="text-muted-foreground" data-testid="text-location">
-                    São Paulo, Brasil
+                  <h4 className="font-semibold text-foreground mb-1">
+                    Localização
+                  </h4>
+                  <p
+                    className="text-muted-foreground"
+                    data-testid="text-location"
+                  >
+                    Rio de Janeiro, Brasil
                   </p>
                 </div>
               </CardContent>

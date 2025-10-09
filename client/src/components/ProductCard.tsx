@@ -19,7 +19,7 @@ export default function ProductCard({
 }: ProductCardProps) {
   return (
     <Card className="overflow-hidden hover-elevate transition-all duration-300">
-      <div className="relative">
+      <div className="relative overflow-hidden">
         <img 
           src={image} 
           alt={title} 
@@ -27,7 +27,7 @@ export default function ProductCard({
         />
         {featured && (
           <Badge 
-            className="absolute top-4 right-4 bg-accent text-accent-foreground"
+            className="absolute top-3 right-3 bg-accent text-accent-foreground shadow-md"
             data-testid="badge-destaque"
           >
             Destaque
