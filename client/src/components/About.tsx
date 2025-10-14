@@ -9,7 +9,7 @@ export default function About() {
             <div className="absolute -inset-4 bg-accent/20 rounded-lg blur-xl" />
             <img 
               src={candlesImage} 
-              alt="Sobre Cheiro & Charme" 
+              alt="Sobre Cheiros & Charme" 
               className="relative rounded-lg shadow-lg w-full h-[400px] object-cover"
             />
           </div>
@@ -20,7 +20,7 @@ export default function About() {
             </h2>
             <div className="space-y-4 text-muted-foreground">
               <p>
-                A <span className="text-foreground font-semibold">Cheiro & Charme</span> nasceu do sonho de conquistar 
+                A <span className="text-foreground font-semibold">Cheiros & Charme</span> nasceu do sonho de conquistar 
                 uma renda extra através do empreendedorismo autônomo. Somos uma empresa que representa o espírito 
                 de quem busca independência financeira através de trabalhos manuais artesanais.
               </p>

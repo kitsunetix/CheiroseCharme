@@ -10,7 +10,7 @@ export default function Footer() {
             <div className="flex items-center gap-2 mb-4">
               <Sparkles className="w-6 h-6 text-accent-foreground" />
               <span className="font-serif text-xl font-bold text-foreground">
-                Cheiro & Charme
+                Cheiros & Charme
               </span>
             </div>
             <p className="text-muted-foreground text-sm">
@@ -68,9 +68,30 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-border pt-8 text-center">
+        {/* Disclaimer do Projeto Escolar */}
+        <div className="border-t border-border pt-8 pb-6">
+          <div className="bg-accent/10 rounded-lg p-6 mb-6">
+            <p className="text-sm text-muted-foreground text-center">
+              <span className="font-semibold text-foreground">📚 Projeto Educacional:</span> Este site foi criado como parte da Feira Cultural da 
+              <span className="font-semibold text-foreground"> Escola Pinheiro Guimarães</span>, com o tema "Trabalho e Formas de Adquirir Renda Extra". 
+              Não se trata de uma empresa real, mas sim de um projeto acadêmico desenvolvido pelos alunos.
+            </p>
+          </div>
+
+          {/* Placeholder para Logo da Escola */}
+          <div className="flex justify-center mb-6">
+            <div className="bg-muted/30 border-2 border-dashed border-border rounded-lg p-8 text-center w-64 h-32 flex items-center justify-center">
+              <p className="text-muted-foreground text-sm">
+                Logo da Escola<br/>Pinheiro Guimarães<br/>
+                <span className="text-xs">(substituir imagem depois)</span>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="text-center">
           <p className="text-sm text-muted-foreground">
-            © 2024 Cheiro & Charme. Todos os direitos reservados.
+            © 2025 Cheiros & Charme - Projeto Escolar
           </p>
         </div>
       </div>

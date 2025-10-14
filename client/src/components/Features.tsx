@@ -25,7 +25,7 @@ export default function Features() {
       <div className="max-w-7xl mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="font-serif text-3xl md:text-4xl font-bold text-foreground mb-4">
-            Por Que Escolher Cheiro & Charme?
+            Por Que Escolher Cheiros & Charme?
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
             Compromisso com a excelência em cada detalhe

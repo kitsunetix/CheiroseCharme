@@ -21,7 +21,7 @@ export default function Hero() {
 
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
         <h1 className="font-serif text-5xl md:text-7xl font-bold text-background mb-4">
-          Cheiro & Charme
+          Cheiros & Charme
         </h1>
         <p className="text-xl md:text-2xl text-background/90 mb-8 font-light">
           Elegância em Cada Detalhe

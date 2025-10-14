@@ -22,7 +22,7 @@ export default function Navbar() {
             >
               <Sparkles className="w-6 h-6 text-accent-foreground" />
               <span className="font-serif text-xl font-bold text-foreground">
-                Cheiro & Charme
+                Cheiros & Charme
               </span>
             </button>
           </Link>
