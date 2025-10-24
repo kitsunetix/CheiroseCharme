@@ -35,12 +35,12 @@ Your website will be hosted at `https://YOUR-USERNAME.github.io/YOUR-REPO-NAME/`
 2. Run this command (replace `YOUR-REPO-NAME` with your actual repository name):
 
 ```bash
-echo "VITE_BASE_PATH=/YOUR-REPO-NAME/" > .env.production
+echo "VITE_BASE_PATH=/CheiroseCharme/" > .env.production
 ```
 
 For example, if your repo is named "school-project", run:
 ```bash
-echo "VITE_BASE_PATH=/school-project/" > .env.production
+echo "VITE_BASE_PATH=/CheiroseCharme/" > .env.production
 ```
 
 **Special case:** If your repository is named `YOUR-USERNAME.github.io`, your site will be at the root. In this case, you don't need to set `VITE_BASE_PATH`.
