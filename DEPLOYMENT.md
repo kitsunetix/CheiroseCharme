@@ -45,19 +45,7 @@ echo "VITE_BASE_PATH=/school-project/" > .env.production
 
 **Special case:** If your repository is named `YOUR-USERNAME.github.io`, your site will be at the root. In this case, you don't need to set `VITE_BASE_PATH`.
 
-### Step 3: Add Build Script to package.json
-
-The deployment workflow needs a build script. Ask me to add this to your `package.json`:
-
-```json
-"scripts": {
-  "build:gh-pages": "vite build --config vite.config.gh-pages.ts"
-}
-```
-
-Or you can manually add it to the `scripts` section in your `package.json` file.
-
-### Step 4: Enable GitHub Pages
+### Step 3: Enable GitHub Pages
 
 1. Go to your GitHub repository
 2. Click on **Settings** (top menu)
@@ -66,7 +54,7 @@ Or you can manually add it to the `scripts` section in your `package.json` file.
    - Source: Select **GitHub Actions**
 5. The workflow will automatically deploy when you push to the `main` branch
 
-### Step 5: Deploy
+### Step 4: Deploy
 
 The GitHub Actions workflow is already configured in `.github/workflows/deploy.yml`.
 
@@ -78,7 +66,7 @@ To deploy:
 4. You should see the "Deploy to GitHub Pages" workflow running
 5. Once complete (green checkmark), your site will be live!
 
-### Step 6: Access Your Website
+### Step 5: Access Your Website
 
 Your website will be available at:
 - **Project page**: `https://YOUR-USERNAME.github.io/YOUR-REPO-NAME/`
