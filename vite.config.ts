@@ -37,5 +37,5 @@ export default defineConfig({
       deny: ["**/.*"],
     },
   },
-  base: "/CheiroseCharme"
+  base: "/CheiroseCharme",
 });
