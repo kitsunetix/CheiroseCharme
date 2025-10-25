@@ -35,15 +35,20 @@ Your website will be hosted at `https://YOUR-USERNAME.github.io/YOUR-REPO-NAME/`
 2. Run this command (replace `YOUR-REPO-NAME` with your actual repository name):
 
 ```bash
-echo "VITE_BASE_PATH=/CheiroseCharme/" > .env.production
+echo "VITE_BASE_PATH=/YOUR-REPO-NAME/" > .env.production
 ```
 
 For example, if your repo is named "school-project", run:
 ```bash
-echo "VITE_BASE_PATH=/CheiroseCharme/" > .env.production
+echo "VITE_BASE_PATH=/school-project/" > .env.production
 ```
 
-**Special case:** If your repository is named `YOUR-USERNAME.github.io`, your site will be at the root. In this case, you don't need to set `VITE_BASE_PATH`.
+**Important:** The `VITE_BASE_PATH` must include both leading and trailing slashes (e.g., `/my-repo/`). This is required for the GitHub Pages routing to work correctly.
+
+**Special case:** If your repository is named `YOUR-USERNAME.github.io`, your site will be at the root. In this case, use:
+```bash
+echo "VITE_BASE_PATH=/" > .env.production
+```
 
 ### Step 3: Enable GitHub Pages
 
